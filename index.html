@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos do Campus</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://www.ifsc.edu.br/o/ifsc-internet-lf6_2-theme/images/favicon.ico" rel="icon" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="https://www.ifsc.edu.br/web/campus-xanxere/cursos" target="_blank"><img src="images/ifsc-logo.png" alt="logo-ifsc" class="navbar-logo"></a>
+        <div class="navbar-links">
+            <a class="navigation" href="informatica.html">Informática</a>
+            <a class="navigation"  href="alimentos.html">Alimentos</a   >
+            <a class="navigation"  href="mecanica.html">Mecânica</a>
+        </div>
+
+        <div class="invite"><a href="https://www.ifsc.edu.br/web/campus-xanxere/tecnicos-integrados">Inscreva-se</a></div>
+    </div>
+
+    <main>
+        <div class="header-curso">
+            <h1>O que é um Curso Integrado?</h1>
+            <p>O curso técnico integrado, também chamado de ensino médio técnico, oferece a formação geral de forma integrada à formação profissional. No IFSC, o aluno tem as disciplinas do currículo normal do ensino médio e as específicas do curso técnico escolhido. A duração é de três ou quatro anos, dependendo de cada curso ou câmpus.
+
+                Para fazer um curso técnico integrado no IFSC, é preciso ter o ensino fundamental completo. Alguns dos nossos cursos têm o processo seletivo por exame de classificação, em que o candidato precisa fazer uma prova com conteúdos de Português e Matemática do ensino fundamental. Para outros, a seleção é por sorteio público. A seleção acontece uma ou duas vezes por ano, de acordo com o câmpus e curso ofertado.</p>
+        </div>
+
+        <div class="banner">
+            <div class="banner-text">
+                <h2>Explore os Cursos!</h2>
+                <p>A jornada para o seu futuro começa aqui.</p>
+            </div>
+        </div>
+
+        <div>
+            <h2 style="text-align: center;">Selecione um curso para ver mais informações</h2>
+        </div>
+
+        <div class="container">
+            <div class="curso" id="informatica" onclick="redirectTo('informatica.html')">
+                <img src="images/informatica.jpg" alt="Imagem Informática">
+                <h2>Curso Técnico em Informática Integrado ao Ensino Médio</h2>
+                <p>Descrição: Capacita profissionais para desenvolver, operar e manter sistemas e aplicações digitais.</p>
+            </div>
+            <div class="curso" id="alimentos" onclick="redirectTo('alimentos.html')">
+                <img src="images/alimentos.jpeg" alt="Imagem Alimentos">
+                <h2>Curso Técnico em Alimentos Integrado ao Ensino Médio</h2>
+                <p>Descrição: Prepara especialistas em processamento, qualidade e análise de alimentos.</p>
+            </div>
+            <div class="curso" id="mecanica" onclick="redirectTo('mecanica.html')">
+                <img src="images/mecanica.jpg" alt="Imagem Mecânica">
+                <h2>Curso Técnico em Mecânica Integrado ao Ensino Médio</h2>
+                <p>Descrição: Forma profissionais para projetar, manter e operar máquinas e equipamentos.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Feito por: José Gabriel Paludo</p>
+        </footer>
+        <script>
+            function redirectTo(location) {
+                window.location.href = location;
+            }
+        </script>
+    </main>
+
+</body>
+
+</html>
